@@ -1,10 +1,10 @@
 ## 安 迪 / An, Di
 
 ### Education
-Jilin University (2017.8—Present)
-Major in Software Engineering<br/>
-Currently studying in the Experimental Class of Excellent Engineer
-Current GPA: 3.66/4.0 	
+Jilin University (2017.8—Present) <br/>
+Major in Software Engineering <br/>
+Currently studying in the Experimental Class of Excellent Engineer <br/>
+Current GPA: 3.66/4.0 <br/>
 
 
 ### Markdown

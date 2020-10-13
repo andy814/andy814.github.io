@@ -1,8 +1,11 @@
-## Welcome to GitHub Pages
+## 安 迪 / An, Di
 
-You can use the [editor on GitHub](https://github.com/andy814/andy814.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### Education
+Jilin University (2017.8—Present)
+Major in Software Engineering
+Currently studying in the Experimental Class of Excellent Engineer
+Current GPA: 3.66/4.0 	
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 

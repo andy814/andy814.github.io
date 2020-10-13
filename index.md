@@ -24,8 +24,8 @@
 **Japanese:** JLPT, N1 <br/>
 
 ### Skills
-- A good command of popular programming languages ( C/C++, Java and Python)
-- 网站运营
+- A good command of popular programming languages (C/C++, Java and Python)
+- Skills and experience in website development (HTML/CSS/JS, Apache, MySQL, PHP)
 - Familiar with deep learning toolkits and libraries such as Keras and Scikit-learn
 - Elementary knowledge and basic skills in computer vision and machine learning
 - LaTeX for academic writing and text formatting
@@ -35,3 +35,4 @@
 - System Architect Qualification of Computer and Software Professional (2019.11)
 - First prize in “FLTRP Cup” English Reading Contest (2019.10)
 - Third prize in China Undergraduate Mathematical Contest in Modeling (2018.12)
+- Third-class scholarship in College of Software (2018.11) 

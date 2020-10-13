@@ -9,7 +9,8 @@
 ### Academic Experience
 **Online Summer Research Program in University of Florida** (2020.7.13-2020.8.31)
 - Worked on GAN-based retinal image generation with Dr. Mohamed Abdel-Mottaleb 
-- Paper is currently in submission for IEEE Transactions on Medical Images
+- Paper is currently in submission for IEEE Transactions on Medical Images <br/>
+
 **Deep learning workshop in University of Miami** (2020.1.27-2020.2.14)
 - Gained basic knowledge and skills in deep learning with Python
 - Built a StarCraft2 agent based on CNN and PySC2 that defeats Veryhard Bots 

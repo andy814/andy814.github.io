@@ -13,7 +13,7 @@
 
 **Deep learning workshop in University of Miami** (2020.1.27-2020.2.14)
 - Gained basic knowledge and skills in deep learning with Python
-- Built a StarCraft2 agent based on CNN and PySC2 that defeats Veryhard Bots 
+- Built a StarCraft2 agent with CNN and PySC2 that defeats Veryhard Bots 
 
 ### Projects
 没编好呢

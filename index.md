@@ -18,7 +18,8 @@
 ### Projects
 **Adolescent Idiopathic Scoliosis Detection**, Jilin University (2020.9 - Present)
 - Contributing to a scoliosis detection system for computer-aided diagnosis
-- Providing web services for scoliosis measurement and Cobb angle calculation based on deep learning models
+- Providing web services for scoliosis measurement and Cobb angle calculation based on deep learning models <br/>
+
 **Bank Queue Management System**, Dalian Software University (2018.7)
 - Participated in the development of a queue system for banking that runs on Linux
 - Designed a client-server architecture with a user-friendly GUI based on C++ and QT

@@ -7,16 +7,21 @@
 - Current GPA: 3.66/4.0 <br/>
 
 ### Academic Experience
-**Online Summer Research Program in University of Florida** (2020.7.13-2020.8.31)
+**Online Summer Research Program**, University of Florida (2020.7.13-2020.8.31)
 - Worked on GAN-based retinal image generation with Dr. Mohamed Abdel-Mottaleb 
 - Paper is currently in submission for IEEE Transactions on Medical Images <br/>
 
-**Deep learning workshop in University of Miami** (2020.1.27-2020.2.14)
+**Deep learning workshop**, University of Miami (2020.1.27-2020.2.14)
 - Gained basic knowledge and skills in deep learning with Python
 - Built a StarCraft2 agent with CNN and PySC2 that defeats Veryhard Bots 
 
 ### Projects
-没编好呢
+**Adolescent Idiopathic Scoliosis Detection**, Jilin University (2020.9 - Present)
+- Contributing to a scoliosis detection system for computer-aided diagnosis
+- Providing web services for scoliosis measurement and Cobb angle calculation based on deep learning models
+**Bank Queue Management System**, Dalian Software University (2018.7)
+- Participated in the development of a queue system for banking that runs on Linux
+- Designed a client-server architecture with a user-friendly GUI based on C++ and QT
 
 ### Languages
 **English:** TOEFL iBT, 106 / TOEIC, 910 <br/>

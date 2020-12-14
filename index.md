@@ -42,3 +42,5 @@
 - First prize in “FLTRP Cup” English Reading Contest (2019.10)
 - Third prize in China Undergraduate Mathematical Contest in Modeling (2018.12)
 - Third-class scholarship in College of Software (2018.11) 
+
+<img src="https://github.com/andy814/andy814.github.io/blob/main/andy20191115.jpg?raw=true" width="50%">

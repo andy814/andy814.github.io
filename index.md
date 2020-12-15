@@ -1,25 +1,28 @@
 ## 安 迪 / An, Di
 <img src="https://github.com/andy814/andy814.github.io/blob/main/andy20191115.jpg?raw=true" width="50%">
 
+### About me
+Hi! My name is Di An, a senior year student at Jilin University. 
+
 ### Education
 **Jilin University** (2017.8—Present) <br/>
+- GPA: 3.66/4.0 <br/>
 - Major in Software Engineering <br/>
-- Currently studying in the Experimental Class of Excellent Engineer <br/>
-- Current GPA: 3.66/4.0 <br/>
+- A member of the Pilot Program in Engineering <br/>
 
 ### Academic Experience
-**Online Summer Research Program**, University of Florida (2020.7.13-2020.8.31)
-- Worked on GAN-based retinal image generation with Dr. Mohamed Abdel-Mottaleb 
-- Paper is currently in submission for IEEE Transactions on Medical Images <br/>
+**Online Summer Research Program**, University of Miami (2020.7.13-2020.8.31)
+- Worked on GAN-based retinal image generation with Dr. Mohamed Abdel-Mottaleb
+- The paper is currently in submission for IEEE Transactions on Medical Imaging </br>
 
 **Deep learning workshop**, University of Miami (2020.1.27-2020.2.14)
-- Gained basic knowledge and skills in deep learning with Python
-- Built a StarCraft2 agent with CNN and PySC2 that defeats Veryhard Bots 
+- Learned the fundamentals and basic skills in deep learning and Python
+- Built a StarCraft 2 agent with a winning percentage of 68% against Very Hard AI</br>
 
 ### Projects
 **Adolescent Idiopathic Scoliosis Detection**, Jilin University (2020.9 - Present)
 - Contributing to a scoliosis detection system for computer-aided diagnosis
-- Providing web services for scoliosis measurement and Cobb angle calculation based on deep learning models <br/>
+- Provided automatic Cobb angle calculation and scoliosis measurement services for doctors and patients<br/>
 
 **Bank Queue Management System**, Dalian Software University (2018.7)
 - Participated in the development of a queue system for banking that runs on Linux

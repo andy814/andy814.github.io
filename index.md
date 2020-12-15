@@ -3,6 +3,10 @@
 
 ### About me
 Hi! My name is Di An, a senior year student at Jilin University. 
+- Proficiency in popular programming languages (C, C++, Java, Python)
+- Skills and experience in web development (HTML/CSS/JS, Apache, MySQL, PHP)
+- Familiarity with deep learning toolkits and libraries such as Keras and Scikit-learn
+- Elementary knowledge and necessary skills in computer vision and machine learning
 
 ### Education
 **Jilin University** (2017.8—Present) <br/>
@@ -32,13 +36,6 @@ Hi! My name is Di An, a senior year student at Jilin University.
 **English:** TOEFL iBT, 106 / TOEIC, 910 <br/>
 **Chinese:** Native <br/>
 **Japanese:** JLPT, N1 <br/>
-
-### Skills
-- A good command of popular programming languages (C/C++, Java and Python)
-- Skills and experience in website development (HTML/CSS/JS, Apache, MySQL, PHP)
-- Familiar with deep learning toolkits and libraries such as Keras and Scikit-learn
-- Elementary knowledge and basic skills in computer vision and machine learning
-- LaTeX for academic writing and text formatting
 
 ### Honors and Awards
 - Best Presentation Team in Spring 2020 Deep Learning Workshop (2020.2)

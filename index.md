@@ -1,4 +1,4 @@
-## Di An
+
 <img src="https://github.com/andy814/andy814.github.io/blob/main/andy20191115.jpg?raw=true" width="50%">
 
 ### About me

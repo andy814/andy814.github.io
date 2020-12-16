@@ -17,11 +17,11 @@ Hi! My name is Di An, a senior year student at Jilin University.
 ### Academic Experience
 **Online Summer Research Program**, University of Miami (2020.7.13-2020.8.31)
 - Worked on GAN-based retinal image generation with Dr. Mohamed Abdel-Mottaleb
-- The paper is currently in submission for IEEE Transactions on Medical Imaging </br>
+- The paper is currently in submission for IEEE Transactions on Medical Imaging <br/>
 
 **Deep learning workshop**, University of Miami (2020.1.27-2020.2.14)
 - Learned the fundamentals and basic skills in deep learning and Python
-- Built a StarCraft 2 agent with a winning percentage of 68% against Very Hard AI</br>
+- Built a StarCraft 2 agent with a winning percentage of 68% against Very Hard AI<br/>
 
 ### Projects
 **Adolescent Idiopathic Scoliosis Detection**, Jilin University (2020.9 - Present)

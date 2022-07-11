@@ -47,10 +47,10 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
      
-        My computer boots slower and slower since last month. Today it took more than 20 minutes to start so I decided to solve this problem.
+        My computer boots slower and slower since last month. Today it took more than 20 minutes to start so I decided to solve this problem. <br><br>
         After trying nearly every solution I could find online, I found a super large temp file (more than 150 GB) in AppData/Local/Temp. 
         First I delete its contents with shift+del, but failed without any error reported. I also tried cleanmgr for Windows but still no luck.
-        So I wrote a simple python script and it works well (and faster): <br>
+        So I wrote a simple python script and it works well (and faster): <br><br>
         
           <!--#region main  -->
           import os
@@ -65,11 +65,29 @@
             continue
           <!--#endregion -->
         
+      <pre class="prettyprint linenums"><code>    task Invert{
+        let invert = GetCurrentScriptDirectory() ~ "./img/inv_circle.png"; //Define path
+        let objInv = ObjPrim_Create(OBJ_SPRITE_2D);
+        let objcount = 0;
+        ObjPrim_SetTexture(objInv, invert);
+        ObjSprite2D_SetSourceRect(objInv, 0, 0, 512, 512);
+        ObjSprite2D_SetDestCenter(objInv);
+        ObjRender_SetScaleXYZ(objInv, 0.25, 0.25, 1);
+        ObjRender_SetPosition(objInv, 384/2, 448/2, 1);
+        ObjRender_SetBlendType(objInv, BLEND_INV_DESTRGB);
+        while(ObjEnemy_GetInfo(objBoss, INFO_LIFE) > 0){
+            ObjRender_SetScaleXYZ(objInv, 0.25 + 0.1*sin(objcount*3), 0.25 + 0.1*sin(objcount*3), 1);
+            objcount++;
+            yield;
+        }
+        Obj_Delete(objInv);
+    }</code></pre>
+        
         Be sure to check the size of your Temp folder if your computer boots slowly! <br><br>
        
         Below are some other links that could be useful:<br>
-        <a href="https://www.makeuseof.com/windows-11-fix-slow-startup/">Fix a Slow Startup on Windows 11</a>
-        <a href="https://www.youtube.com/watch?v=mPOScURlnH4">How to Fix Windows 11 Slow Startup</a>
+        <a href="https://www.makeuseof.com/windows-11-fix-slow-startup/">Fix a Slow Startup on Windows 11</a> <br>
+        <a href="https://www.youtube.com/watch?v=mPOScURlnH4">[Youtube] How to Fix Windows 11 Slow Startup</a>
         
         
         

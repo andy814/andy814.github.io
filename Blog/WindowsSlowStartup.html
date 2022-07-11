@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=61234a4e8c34cd66a30bc1445578fc3b60ce436f">
+    <style type="text/css">
+        #main_content {
+            font-size: 18px;
+            font-weight: 300;
+        }
+    </style>
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>安 迪 Di An</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="安 迪 Di An" />
+<meta name="author" content="Andy" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://andy814.github.io/" />
+<meta property="og:url" content="https://andy814.github.io/" />
+<meta property="og:site_name" content="安 迪 Di An" />
+<script type="application/ld+json">
+{"@type":"WebSite","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://github.com/andy814/andy814.github.io/blob/main/andy20191115.jpg?raw=true"},"name":"Andy"},"author":{"@type":"Person","name":"Andy"},"headline":"安 迪 Di An","url":"https://andy814.github.io/","name":"安 迪 Di An","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <!--a id="forkme_banner" href="https://github.com/andy814/andy814.github.io">View on GitHub</a-->
+
+          <h1 id="project_title">安 迪 | Di An</h1>
+          <h2 id="project_tagline"></h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+     
+        My computer boots slower and slower since last month. Today it took more than 20 minutes to start so I decided to solve this problem.
+        After trying nearly every solution I could find online, I found a super large temp file (more than 150 GB) in AppData/Local/Temp. 
+        First I delete its contents with shift+del, but failed without any error reported. I also tried cleanmgr for Windows but still no luck.
+        So I wrote a simple python script and it works well (and faster): <br>
+        
+          <!--#region main  -->
+          import os
+          import shutil
+          def delFiles(path):
+              for file in os.listdir(path):
+                  try:
+                      if os.path.isdir(path+"\\"+file):
+                          print(path+"\\"+file)
+                          shutil.rmtree(path+"\\"+file)
+                  except: # when access denied
+            continue
+          <!--#endregion -->
+        
+        Be sure to check the size of your Temp folder if your computer boots slowly! <br><br>
+       
+        Below are some other links that could be useful:<br>
+        <a href="https://www.makeuseof.com/windows-11-fix-slow-startup/">Fix a Slow Startup on Windows 11</a>
+        <a href="https://www.youtube.com/watch?v=mPOScURlnH4">How to Fix Windows 11 Slow Startup</a>
+        
+        
+        
+        
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>

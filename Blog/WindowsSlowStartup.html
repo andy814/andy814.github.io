@@ -65,7 +65,7 @@
             continue
           ```
         
-     <code> task Invert{
+     <pre class="prettyprint linenums"><code> task Invert{
         let invert = GetCurrentScriptDirectory() ~ "./img/inv_circle.png"; //Define path
         let objInv = ObjPrim_Create(OBJ_SPRITE_2D);
         let objcount = 0;
@@ -81,7 +81,7 @@
             yield;
         }
         Obj_Delete(objInv);
-    }</code>
+    }</code></pre>
         
         Be sure to check the size of your Temp folder if your computer boots slowly! <br><br>
        

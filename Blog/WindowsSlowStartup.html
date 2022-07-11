@@ -52,18 +52,16 @@
         First I delete its contents with shift+del, but failed without any error reported. I also tried cleanmgr for Windows but still no luck.
         So I wrote a simple python script and it works well (and faster): <br><br>
         
-     <pre class="prettyprint linenums"><code>
-          import os
-          import shutil
-          def delFiles(path):
-              for file in os.listdir(path):
-                  try:
-                      if os.path.isdir(path+"\\"+file):
-                          print(path+"\\"+file)
-                          shutil.rmtree(path+"\\"+file)
-                  except: # when access denied
-            continue
-    </code></pre>
+<pre class="prettyprint linenums"><code>import os
+import shutil
+def delFiles(path):
+    for file in os.listdir(path):
+        try:
+            if os.path.isdir(path+"\\"+file):
+                print(path+"\\"+file)
+                shutil.rmtree(path+"\\"+file)
+        except: # when access denied
+            continue</code></pre>
         
         Be sure to check the size of your Temp folder if your computer boots slowly! <br><br>
        

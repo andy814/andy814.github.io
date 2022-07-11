@@ -52,7 +52,7 @@
         First I delete its contents with shift+del, but failed without any error reported. I also tried cleanmgr for Windows but still no luck.
         So I wrote a simple python script and it works well (and faster): <br><br>
         
-          <!--#region main  -->
+          ```
           import os
           import shutil
           def delFiles(path):
@@ -63,9 +63,9 @@
                           shutil.rmtree(path+"\\"+file)
                   except: # when access denied
             continue
-          <!--#endregion -->
+          ```
         
-      <pre class="prettyprint linenums"><code>    task Invert{
+     <code> task Invert{
         let invert = GetCurrentScriptDirectory() ~ "./img/inv_circle.png"; //Define path
         let objInv = ObjPrim_Create(OBJ_SPRITE_2D);
         let objcount = 0;
@@ -81,7 +81,7 @@
             yield;
         }
         Obj_Delete(objInv);
-    }</code></pre>
+    }</code>
         
         Be sure to check the size of your Temp folder if your computer boots slowly! <br><br>
        
